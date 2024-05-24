@@ -33,7 +33,7 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Designer","Youtuber","Developer"],
+  strings : ["Full Stack Developer"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
@@ -118,10 +118,12 @@ window.addEventListener('scroll', scrollActive)
 
 document.getElementById('Download-cv').addEventListener('click', function() {
   // Replace 'path/to/your/cv.pdf' with the actual path to your CV file
+  console.log("ehera");
   const link = document.createElement('a');
-  link.href = '../../Resume_DeepakSharma.pdf';
+  link.href = 'Resume_DeepakSharma.pdf';
   link.download = 'Resume_DeepakSharma.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  console.log("jnjknknkn");
 });
